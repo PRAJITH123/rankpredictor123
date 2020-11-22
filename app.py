@@ -5,19 +5,19 @@ import pandas as pd
 
 
 # Load the  model
-filename = 'rank_model.pkl'
-filename1= 'polynomial_transform.pkl'
+filename = 'models/rank_model.pkl'
+filename1= 'models/polynomial_transform.pkl'
 model = pickle.load(open(filename, 'rb'))
 model1=pickle.load(open(filename1,'rb'))
 
 
-filename_uni= 'poly_univ.pkl'
-filename_uni1='rank_model_univ.pkl'
+filename_uni= 'models/poly_univ.pkl'
+filename_uni1='models/rank_model_univ.pkl'
 model_uni = pickle.load(open(filename_uni, 'rb'))
 model_uni1=pickle.load(open(filename_uni1,'rb'))
 
-filename_over='poly_overall.pkl'
-filename_over1='rank_model_overall.pkl'
+filename_over='models/poly_overall.pkl'
+filename_over1='models/rank_model_overall.pkl'
 model_over = pickle.load(open(filename_over, 'rb'))
 model_over1=pickle.load(open(filename_over1,'rb'))
 
